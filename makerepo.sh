@@ -38,6 +38,6 @@ gh_repo_url=$(gh repo view "$repo_name" --json ssh_url -q ".ssh_url")
 git remote add origin "$gh_repo_url"
 
 # Push the local repository to the GitHub repository
-git push -u origin main
+git push -u origin master
 
-echo "Local repository has been initialized, committed, and pushed to the GitHub repository."
+echo "Local repository has been initialized, committed, and pushed to the GitHub 
